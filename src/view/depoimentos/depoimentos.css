@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgb(118, 74, 148);
+}
+
+.botao {
+    background-color: rgb(192, 140, 226);
+    border-color: rgb(192, 140, 226);
+    font: #fff;
+}
+
+.botao hover
+{
+    background-color: rgb(205, 189, 216);
+}
