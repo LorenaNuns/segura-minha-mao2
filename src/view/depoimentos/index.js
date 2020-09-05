@@ -4,7 +4,7 @@ import './depoimentos.css';
 function Depoimentos(){
     return(
       <>
-      <h1>Por favoooor</h1>
+      
         <nav class="navbar navbar-expand-lg text-white fixed-top">
     <div class="container">
       <a class="navbar-brand text-white" href="#">Segura Minha Mão</a>
