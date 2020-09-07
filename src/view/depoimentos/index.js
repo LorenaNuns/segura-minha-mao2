@@ -1,11 +1,12 @@
 import React from 'react';
 import './depoimentos.css';
+import {Link} from 'react-router-dom';
+import Encontro from '../encontro/index';
 
 function Depoimentos(){
     return(
       <>
-      
-        <nav class="navbar navbar-expand-lg text-white fixed-top">
+     <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand text-white" href="#">Segura Minha Mão</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,9 +27,6 @@ function Depoimentos(){
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Ajuda</a>
           </li>
           <li class="nav-item">
             <a class="nav-link text-white" href="#">Contatos</a>
@@ -54,27 +52,27 @@ function Depoimentos(){
       <div class="card-body">
         <h2 class="card-title">Post Title</h2>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-        <button className="botao btn btn-lg text-white"> Posso segurar sua mão?</button>
+        <button className="botao btn btn-lg "><Link to='encontro' style={{ textDecoration: 'none', color: 'white' }}>Posso segurar sua mão?</Link></button>
       </div>
     </div>
 
     
-    <div class="card mb-4">
+    <div class="card mb-4 text-center d-flex">
       <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap"/>
       <div class="card-body">
         <h2 class="card-title">Post Title</h2>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+        <button className="botao btn btn-lg "><Link to='encontro' style={{ textDecoration: 'none', color: 'white' }}>Posso segurar sua mão?</Link></button>
       </div>
     </div>
 
    
-    <div class="card mb-4">
+    <div class="card mb-4 text-center d-flex">
       <img class="card-img-top" src="http://placehold.it/750x300" alt="Card image cap"/>
       <div class="card-body">
         <h2 class="card-title">Post Title</h2>
         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-        <a href="#" class="btn btn-primary">Read More &rarr;</a>
+        <button className="botao btn btn-lg "><Link to='encontro' style={{ textDecoration: 'none', color: 'white' }}>Posso segurar sua mão?</Link></button>
       </div>
     </div>
 
@@ -94,12 +92,13 @@ function Depoimentos(){
 
   </div>
 
-  <footer class="py-5 bg-dark">
+  <footer class="rodape py-5">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">© 2020 SeguraMinhaMão, Todos os direitos reservados.</p>
     </div>
     
   </footer>
+
       </>
     )
 };

@@ -1,0 +1,25 @@
+
+.navbar {
+    background-color: #9B2661 ;
+    
+    /*color: #D94D8C;*/
+}
+
+.botao {
+    background-color:  #9B2661;
+    border-color:  #9B2661;
+    font: #fff;
+    text-align: center;
+}
+.botao hover
+{
+    background-color: rgb(205, 189, 216);
+}
+.nome {
+    font-size: 30px;
+}
+
+.rodape {
+    background-color: #D94D8C;
+    
+}

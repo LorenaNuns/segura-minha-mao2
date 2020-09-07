@@ -1,14 +1,22 @@
+
 .navbar {
-    background-color: rgb(118, 74, 148);
+    background-color: #9B2661 ;
+    
+    /*color: #D94D8C;*/
 }
 
 .botao {
-    background-color: rgb(192, 140, 226);
-    border-color: rgb(192, 140, 226);
+    background-color:  #9B2661;
+    border-color:  #9B2661;
     font: #fff;
 }
 
 .botao hover
 {
     background-color: rgb(205, 189, 216);
+}
+
+.rodape {
+    background-color: #D94D8C;
+    
 }
